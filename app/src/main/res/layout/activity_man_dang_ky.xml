@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.ManDangKy"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/iconapp" />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="#1C9AFF"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:text="Đăng Ký"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:drawableRight="@drawable/ic_taikhoan"
+        android:id="@+id/dktaikhoan"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:hint="Tài khoản"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_pass"
+        android:id="@+id/dkmatkhau"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="Mật khẩu"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:drawableRight="@drawable/ic_email"
+        android:id="@+id/dkemail"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:hint="Email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </EditText>
+    <Button
+        android:id="@+id/dkdangky"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Đăng Ký"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/dkdangnhap"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Trở về Đăng Nhập"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btnFace"
+        android:backgroundTint="#3b5998"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:text="Đăng nhập bằng Facebook"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+    <Button
+        android:id="@+id/btnGoogle"
+        android:backgroundTint="#dc4e41"
+        android:layout_gravity="center"
+        android:text="đăng nhập bằng google+"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logopnk" />
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MST</string>
+    <string name="todo">TODO</string>
+    <string name="lo_i_ph_ng">Loại Phòng</string>
+    <string name="title_activity_lienhe_">Map</string>
+</resources>

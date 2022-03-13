@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MSTappdemo/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MSTappdemo/app/src/main/res/drawable/boder.xml" value="0.2345" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MSTappdemo/app/src/main/res/layout/activity_chi_tiet_san_pham.xml" value="0.33" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/MSTappdemo/app/src/main/res/layout/activity_thongtinkhachhang.xml" value="0.33" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/MSTappdemo/app/src/main/res/menu/menu.xml" value="0.16574074074074074" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects1/MSTappdemo/app/src/main/res/layout/activity_lienhe_.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects1/MSTappdemo/app/src/main/res/layout/progressbar.xml" value="0.36666666666666664" />

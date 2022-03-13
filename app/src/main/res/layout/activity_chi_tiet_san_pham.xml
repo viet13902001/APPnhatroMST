@@ -52,29 +52,49 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
-            <Spinner
-                android:background="@drawable/spiner"
-                android:foregroundGravity="center"
-                android:id="@+id/spiner"
-                android:layout_gravity="center"
-                android:layout_margin="3dp"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:padding="5dp"
-                android:textAlignment="center"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            </Spinner>
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                >
+                <Spinner
+                    android:background="@drawable/spiner"
+                    android:foregroundGravity="center"
 
-            <Button
-                android:backgroundTint="#008EFF"
-                android:text="Thuê"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp"
-                android:id="@+id/buttondatmua"
-                android:layout_margin="3dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                    android:id="@+id/spiner"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp">
+                </Spinner>
+                <Space
+                    android:id="@+id/space"
+                    android:layout_width="50dp"
+                    android:layout_height="0dp"
+                    android:layout_toRightOf="@+id/spiner"
+                    >
+                </Space>
+                <Button
+                    android:id="@+id/buttondatmua"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_toRightOf="@+id/space"
+                    android:backgroundTint="#008EFF"
+                    android:text="Thuê"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+            </RelativeLayout>
+
+
 
         </LinearLayout>
     </LinearLayout>

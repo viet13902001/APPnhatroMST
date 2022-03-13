@@ -328,7 +328,7 @@ public class MainActivity extends AppCompatActivity {
         listViewmanhinhchinh =this.findViewById(R.id.listviewmanhinhchinh);
         drawerLayout =this.findViewById(R.id.drawerlayout);
         mangloaisp = new ArrayList<>();
-        mangloaisp.add(new Loaisp(0, "Trang Chủ", "https://interactive-spanish.com/wp-content/uploads/2020/02/house-256h.png"));
+        mangloaisp.add(new Loaisp(0, "Trang Chủ", "https://scontent.fhph2-1.fna.fbcdn.net/v/t1.15752-9/275209703_1687643311574894_5749057463967385439_n.png?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=6NMNBMvnXvcAX9cv-XT&_nc_ht=scontent.fhph2-1.fna&oh=03_AVLbvRQx2v1v6igfnTTmIObrJcw4OKkOgG4SNzP86Wd1Uw&oe=62520664"));
         loaispAdapter = new LoaispAdapter(mangloaisp,getApplicationContext());
         listViewmanhinhchinh.setAdapter(loaispAdapter);
         mangsanpham =new ArrayList<>();

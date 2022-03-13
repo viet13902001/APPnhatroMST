@@ -7,100 +7,119 @@
     android:orientation="vertical"
     tools:context="activity.Thongtinkhachhang"
     android:background="#C6C5C3">
-<LinearLayout
-    android:gravity="center"
-    android:orientation="vertical"
-    android:background="@drawable/boder"
-    android:layout_marginLeft="20dp"
-    android:layout_marginRight="20dp"
-    android:layout_marginBottom="80dp"
-    android:layout_marginTop="125dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
 
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginLeft="10dp"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:text="Xác nhận thông tin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_marginTop="35dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <EditText
-            android:layout_margin="9dp"
-            android:id="@+id/edittexttenkhachhang"
-            android:inputType="text"
-            android:hint="Nhập tên khách hàng"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
-    android:layout_marginTop="10dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <EditText
-        android:layout_margin="9dp"
-        android:id="@+id/edittextsodienthoai"
-        android:inputType="phone"
-        android:hint="Nhập số điện thoại"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_marginTop="10dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <EditText
-            android:layout_margin="9dp"
-            android:id="@+id/edittextemail"
-            android:inputType="textEmailAddress"
-            android:hint="Nhập Email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
     <LinearLayout
-        android:gravity="center"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-
-            android:id="@+id/bottonxacnhan"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/boder"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="30dp"
-            android:layout_marginRight="30dp"
-            android:background="#FFFFFF"
-            android:padding="10dp"
-            android:text="Xác nhận"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            app:backgroundTint="#FFFFFF" />
+            android:background="@drawable/icon123"
+            />
 
-        <Button
-            android:id="@+id/bottontrove"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="30dp"
-            android:layout_marginLeft="30dp"
-            android:background="#F6F4F4"
-            android:padding="10dp"
-            android:text="Trở về"
-            android:textColor="#000000"
-            android:textSize="15sp"
-            app:backgroundTint="#FFFFFF" />
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:text="Xác nhận thông tin"
+            android:textColor="#008cff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp">
+
+            <EditText
+                android:id="@+id/edittexttenkhachhang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:background="@color/white"
+                android:hint="Nhập tên khách hàng"
+                android:inputType="text"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edittextsodienthoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:hint="Nhập số điện thoại"
+                android:background="@color/white"
+                android:inputType="phone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/edittextemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:background="@color/white"
+                android:hint="Nhập Email"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bottontrove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/boder"
+                android:padding="10dp"
+                android:text="Trở về"
+                android:textColor="#FBFBFB"
+                android:textSize="15sp"
+                app:backgroundTint="#008cff" />
+
+            <Button
+
+                android:id="@+id/bottonxacnhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/boder"
+                android:padding="10dp"
+                android:text="Xác nhận"
+                android:textColor="#FAFAFA"
+                android:textSize="15sp"
+                app:backgroundTint="#008cff"
+                />
+
+
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
 </LinearLayout>
